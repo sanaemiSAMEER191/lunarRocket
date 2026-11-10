@@ -1,0 +1,73 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Model checkpoints and generated artifacts
+models/*.zip
+models/*.pth
+models/*.pt
+
+# Experiment outputs
+experiments/*/logs/
+experiments/*/videos/# Virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Model checkpoints and generated artifacts
+models/*.zip
+models/*.pth
+models/*.pt
+
+# Experiment outputs
+experiments/*/logs/
+experiments/*/videos/

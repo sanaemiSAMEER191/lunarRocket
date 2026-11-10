@@ -1,0 +1,18 @@
+{
+    "Baseline (LR=3e-4)": {
+        "mean_reward": 172.08567044025662,
+        "std_reward": 109.52306905110123,
+        "mean_episode_length": 308.91,
+        "success_rate": 0.75,
+        "successful_landings": 75,
+        "total_episodes": 100
+    },
+    "Lower LR (LR=1e-4)": {
+        "mean_reward": 110.51470448712371,
+        "std_reward": 121.15257575099956,
+        "mean_episode_length": 293.18,
+        "success_rate": 0.56,
+        "successful_landings": 56,
+        "total_episodes": 100
+    }
+}

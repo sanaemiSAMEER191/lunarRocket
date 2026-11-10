@@ -5,7 +5,7 @@ def main():
     env = create_environment()
 
     try:
-        observation, info = env.reset(seed=42)
+        observation, _info = env.reset(seed=42)
 
         print("\n--- ENVIRONMENT INFORMATION ---")
         print(f"Environment: {env.spec.id}")
@@ -32,7 +32,7 @@ def main():
         print("\n--- ONE ENVIRONMENT STEP ---")
         action = 2
 
-        next_obs, reward, terminated, truncated, info = (
+        next_obs, reward, terminated, truncated, _info = (
             env.step(action)
         )
 

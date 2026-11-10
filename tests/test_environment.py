@@ -22,11 +22,11 @@ def test_environment_step():
     env = create_environment()
 
     try:
-        observation, info = env.reset(seed=42)
+        _observation, _info = env.reset(seed=42)
 
         action = env.action_space.sample()
 
-        next_observation, reward, terminated, truncated, info = (
+        next_observation, reward, terminated, truncated, _info = (
             env.step(action)
         )
 

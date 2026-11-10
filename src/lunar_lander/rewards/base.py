@@ -7,7 +7,7 @@ def calculate_position_shaping(
     """
     Calculate the positional shaping score used by LunarLander.
     """
-    x, y, vx, vy, angle, angular_velocity, left_leg, right_leg = (
+    x, y, vx, vy, angle, _angular_velocity, left_leg, right_leg = (
         observation
     )
 

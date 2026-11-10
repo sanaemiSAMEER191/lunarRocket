@@ -5,14 +5,14 @@ def main():
     env = create_environment(render_mode="human")
 
     try:
-        observation, info = env.reset(seed=42)
+        _observation, _info = env.reset(seed=42)
         episode_reward = 0.0
         episode_count = 0
 
         while True:
             action = env.action_space.sample()
 
-            observation, reward, terminated, truncated, info = (
+            _observation, reward, terminated, truncated, _info = (
                 env.step(action)
             )
 
@@ -26,7 +26,7 @@ def main():
                     f"Reward: {episode_reward:.2f}"
                 )
 
-                observation, info = env.reset()
+                _observation, _info = env.reset()
                 episode_reward = 0.0
 
     except KeyboardInterrupt:

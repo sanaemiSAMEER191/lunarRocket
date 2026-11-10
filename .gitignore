@@ -71,3 +71,14 @@ models/*.pt
 # Experiment outputs
 experiments/*/logs/
 experiments/*/videos/
+# Trained models and checkpoints
+models/
+
+# Generated experiment logs
+experiments/**/logs/
+experiments/**/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
